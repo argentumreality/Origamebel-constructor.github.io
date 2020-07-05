@@ -51,7 +51,7 @@ const colors = [
     //usdz: 'android/beds/glbs/BROWN2.usdz',
 },
 {
-    texture: 'resources/yellow.jpg',
+    texture: 'resources/yellow.png',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/6.html',
