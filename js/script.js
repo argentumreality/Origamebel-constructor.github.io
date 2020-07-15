@@ -10,7 +10,7 @@ var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
 const colors = [
 {
-    texture: 'resources/blue.png',
+    texture: 'resources/blue.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/1.html',
@@ -18,7 +18,7 @@ const colors = [
     //usdz: 'android/beds/glbs/BROWN2.usdz',
 },
 {
-    texture: 'resources/green.png',
+    texture: 'resources/green.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/2.html',
@@ -27,7 +27,7 @@ const colors = [
 
 },
 {
-    texture: 'resources/brown.png',
+    texture: 'resources/brown.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/3.html',
@@ -35,7 +35,7 @@ const colors = [
     //usdz: 'android/beds/glbs/PINK2.usdz',
 },
 {
-    texture: 'resources/cream (2).jpg',
+    texture: 'resources/cream.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/4.html',
