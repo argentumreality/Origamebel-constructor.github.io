@@ -35,7 +35,7 @@ const colors = [
     //usdz: 'android/beds/glbs/PINK2.usdz',
 },
 {
-    texture: 'resources/cream.jpg',
+    texture: 'resources/cream (2).jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/4.html',
