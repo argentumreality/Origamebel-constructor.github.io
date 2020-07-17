@@ -41,6 +41,14 @@ const colors = [
     link: 'android/beds/4.html',
     //glb: 'android/beds/glbs/RED.glb',
     //usdz: 'android/beds/glbs/RED2.usdz',
+},
+{
+    texture: 'resources/yellow.png',
+    size: [1,1,1],
+    shininess: 0,
+    link: 'android/beds/5.html',
+    //glb: 'android/beds/glbs/RED.glb',
+    //usdz: 'android/beds/glbs/RED2.usdz',
 }];
 
 
