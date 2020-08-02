@@ -106,7 +106,12 @@ function handle_load(gltf) {
     scene.add(wood);
     wood.position.y = -1;
     wood.scale.set(3,3,3);
-    theModel.rotation.y = Math.PI +90;
+    wood.rotation.y = Math.PI +90;
+     wood.traverse(o => {
+    if (o.isMesh) {
+      o.castShadow = true;
+      o.receiveShadow = true;
+    }
 }
 
 loader.load(MODEL_PATH, function (gltf) {
