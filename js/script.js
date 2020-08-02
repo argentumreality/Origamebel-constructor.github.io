@@ -97,7 +97,7 @@ const INITIAL_MAP = [
 //}
 var loader = new THREE.GLTFLoader();
 
-loader.load('models/wood', handle_load);
+loader.load('models/wood.glb', handle_load);
 
 var wood;
 
