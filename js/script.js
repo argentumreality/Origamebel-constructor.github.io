@@ -113,7 +113,8 @@ function handle_load(gltf) {
       o.receiveShadow = true;
     }
 });
-
+                   }
+                   
 loader.load(MODEL_PATH, function (gltf) {
   theModel = gltf.scene;
 
