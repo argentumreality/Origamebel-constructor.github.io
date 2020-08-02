@@ -111,7 +111,7 @@ function handle_load(gltf) {
     if (o.isMesh) {
       o.castShadow = true;
       o.receiveShadow = true;
-    });
+    }));
 }
 
 loader.load(MODEL_PATH, function (gltf) {
