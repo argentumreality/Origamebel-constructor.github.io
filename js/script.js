@@ -105,6 +105,8 @@ function handle_load(gltf) {
     wood = gltf.scene.children[0];
     scene.add(wood);
     wood.position.y = -1;
+    wood.scale.set(3,3,3);
+    theModel.rotation.y = Math.PI +90;
 }
 
 loader.load(MODEL_PATH, function (gltf) {
@@ -359,6 +361,7 @@ function initialRotation() {
   initRotate++;
   if (initRotate <= 120) {
     theModel.rotation.y += Math.PI / 60;
+      wood.rotation.y += Math.PI / 60;
   } else {
     loaded = true;
   }
