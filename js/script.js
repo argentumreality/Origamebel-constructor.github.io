@@ -4,7 +4,7 @@ const TRAY = document.getElementById('js-tray-slide');
 const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
-const MODEL_PATH = "models/vanila.glb";
+const MODEL_PATH = "models/main.glb";
 var activeOption = 'main';
 var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
@@ -95,9 +95,17 @@ const INITIAL_MAP = [
 //for (let object of INITIAL_URL){
    // initLink(theLink, object.childID, object.link);
 //}
-
-// Init the object loader
 var loader = new THREE.GLTFLoader();
+
+loader.load('models/wood', handle_load);
+
+var wood;
+
+function handle_load(gltf) {
+    wood = gltf.scene.children[0];
+    scene.add(wood);
+    wood.position.y = -1;
+}
 
 loader.load(MODEL_PATH, function (gltf) {
   theModel = gltf.scene;
